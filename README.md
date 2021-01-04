@@ -9,7 +9,11 @@ The scripts reads each url present in .txt file and extracts the table contents 
 
 # Requirements
 Install Python 3.8.5
+
+
 Import the following libraries using the command: pip install <lib-name>
+  
+  
   1.pandas
   2.requests
   3.openpyxl
