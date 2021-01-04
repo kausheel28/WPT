@@ -39,7 +39,7 @@ Open WPT.py file in any text editor like notepad++ and change the textfile and e
 
 
 # Steps to run
-Open cmd navigate to Python folder
+Open cmd and navigate to Python folder
 
 
-Run command:python WPT.py
+Run command: python WPT.py
