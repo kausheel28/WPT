@@ -14,16 +14,32 @@ Install Python 3.8.5
 Import the following libraries using the command: pip install <lib-name>
   
   
-  1.pandas
-  2.requests
-  3.openpyxl
+1.pandas
+
+
+2.requests
+
+
+3.openpyxl
+
+
   
 # Setup
 Place WPT.py file in Python Folder
+
+
 Create a text file which consists of WPT Results URL's place it in Python folder
+
+
 Create a Excel file to export the results and Place it in the above mentioned folder
+
+
 Open WPT.py file in any text editor like notepad++ and change the textfile and excel file paths accordingly and save.
+
+
 
 # Steps to run
 Open cmd navigate to Python folder
+
+
 Run command:python WPT.py
