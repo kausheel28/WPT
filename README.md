@@ -5,22 +5,25 @@ A lot of time and manual effort is put into extraction of important web vitals f
 
 This python script which allows to scrape data from WPT's UI by just providing the URLs of test execution in a .txt file, automatically filling the values into a spreadsheet
 
-The scripts reads each url present in .txt file and extracts the table contents and store it in data frame. code can be optimised according to your requirement to perform operations on data frame like multiplying each column with certain value or getting averages of certain columns and exporting the data frames to new sheet in excel file.
+The script reads each url present in .txt file and extracts the table contents and stores it in data frame. The Code can be optimised according to your requirement to perform operations on data frame like multiplying each column with certain value or getting averages of certain columns and exporting the data frames to new sheet in excel file.
 
 # Requirements
-Install Python 3.8.5
+Install Python 3.8.5 or above
 
 
-Import the following libraries using the command: pip install <lib-name>
+Run the following commands:
   
   
-1.pandas
+1.pip install pandas
 
 
-2.requests
+2.pip install requests
 
 
-3.openpyxl
+3.pip install openpyxl
+
+
+4.pip install lxml
 
 
   
@@ -28,10 +31,10 @@ Import the following libraries using the command: pip install <lib-name>
 Place WPT.py file in Python Folder
 
 
-Create a text file which consists of WPT Results URL's place it in Python folder
+Create a text file which consists of WPT Results URL's and place it in Python folder
 
 
-Create a Excel file to export the results and Place it in the above mentioned folder
+Create an Excel file to export the results and place it in the Python folder
 
 
 Open WPT.py file in any text editor like notepad++ and change the textfile and excel file paths accordingly and save.
