@@ -8,7 +8,7 @@ This python script which allows to scrape data from WPT's UI by just providing t
 The script reads each url present in .txt file and extracts the table contents and stores it in data frame. The Code can be optimised according to your requirement to perform operations on data frame like multiplying each column with certain value or getting averages of certain columns and exporting the data frames to new sheet in excel file.
 
 # Requirements
-Install Python 3.8.5 or above
+Install Python 3.7 or above
 
 
 Import Important Libraries by running the following Commands:
