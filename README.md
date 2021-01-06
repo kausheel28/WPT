@@ -11,7 +11,7 @@ The script reads each url present in .txt file and extracts the table contents a
 Install Python 3.8.5 or above
 
 
-Run the following commands:
+Import important libraries by running the following commands:
   
   
 1.pip install pandas
